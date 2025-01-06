@@ -1,5 +1,5 @@
 import React from 'react'
-import { DATA_ANALYTICS_URL, FULL_STACK_ROLE_URL } from '../utils/constants'
+import { BOOTCAMP_COURSE_URL, DATA_ANALYTICS_URL, FULL_STACK_COURSE_URL, FULL_STACK_ROLE_URL } from '../utils/constants'
 
 const Graduates = () => {
   return (
@@ -17,29 +17,33 @@ const Graduates = () => {
         </div>
         <div className='flex justify-center mt-10'>
           {/** Full stack development */}
-          <div className='w-[460px] rounded-xl hover:shadow-lg cursor-pointer transition-shadow duration-300'>
-            <div className='flex bg-customLightBlue p-5 items-center h-[144px] gap-5 rounded-t-xl'>
-              <img className='bg-white w-[70px] p-3 rounded-full' src={FULL_STACK_ROLE_URL} alt='fullStack' />
-              <p className='font-semibold text-[20px]'>Full Stack Web Development</p>
+          <a href={FULL_STACK_COURSE_URL} target='_blank' rel="noopener noreferrer">
+            <div className='w-[460px] rounded-xl hover:shadow-lg cursor-pointer transition-shadow duration-300'>
+              <div className='flex bg-customLightBlue p-5 items-center h-[144px] gap-5 rounded-t-xl'>
+                <img className='bg-white w-[70px] p-3 rounded-full' src={FULL_STACK_ROLE_URL} alt='fullStack' />
+                <p className='font-semibold text-[20px]'>Full Stack Web Development</p>
+              </div>
+              <div className='flex items-center justify-between h-10 text-sm text-black shadow-lg gap-4 rounded-b-xl px-5 py-8'>
+                <p>140+ Hrs of content</p>
+                <p>600+ Problems</p>
+                <p>10k+ Leaners</p>
+              </div>
             </div>
-            <div className='flex items-center justify-between h-10 text-sm text-black shadow-lg gap-4 rounded-b-xl px-5 py-8'>
-              <p>140+ Hrs of content</p>
-              <p>600+ Problems</p>
-              <p>10k+ Leaners</p>
-            </div>
-          </div>
+          </a>
           {/** data analytics */}
-          <div className='ml-5 w-[460px] rounded-xl hover:shadow-lg cursor-pointer transition-shadow duration-300'>
-            <div className='flex bg-customLightBlue p-5  items-center h-[144px] gap-5 rounded-t-xl'>
-              <img className='bg-white w-[70px]  p-3 rounded-full' src={DATA_ANALYTICS_URL} alt='dataAnalytics'/>
-              <p className='font-semibold text-[20px]'>Data Analytics</p>
+          <a href={BOOTCAMP_COURSE_URL} target='_blank' rel="noopener noreferrer" >
+            <div className='ml-5 w-[460px] rounded-xl hover:shadow-lg cursor-pointer transition-shadow duration-300'>
+              <div className='flex bg-customLightBlue p-5  items-center h-[144px] gap-5 rounded-t-xl'>
+                <img className='bg-white w-[70px]  p-3 rounded-full' src={DATA_ANALYTICS_URL} alt='dataAnalytics'/>
+                <p className='font-semibold text-[20px]'>Data Analytics</p>
+              </div>
+              <div className='flex items-center justify-between h-10 text-sm text-black shadow-lg rounded-b-xl gap-4 px-5 py-8'>
+                <p>100+ Hrs of content</p>
+                <p>300+ Problems</p>
+                <p>2000+ Learners</p>
+              </div>
             </div>
-            <div className='flex items-center justify-between h-10 text-sm text-black shadow-lg rounded-b-xl gap-4 px-5 py-8'>
-              <p>100+ Hrs of content</p>
-              <p>300+ Problems</p>
-              <p>2000+ Learners</p>
-            </div>
-          </div>
+          </a>
         </div>
       </div>
     </div>

@@ -45,6 +45,39 @@ export const HOME_BACKGROUND_SMALL_URL = 'https://files.codingninjas.com/home-pa
 
 export const HOME_BACKGROUND_LARGE_URL = 'https://files.codingninjas.com/mask-group-from-home-page-v3-1733399273.webp';
 
+export const BACKGROUND_BOX_URL = 'https://files.codingninjas.com/dark-hero-section-only-lines-33050.svg';
+
+export const WHY_US_URL = 'https://files.codingninjas.com/why-us2-33889.svg';
+
+export const  WHY_US_BACKGROUND_URL = "https://files.codingninjas.com/why-us-1-33060.svg";
+
+
+export const DOUBT_SUPPORT = 'https://files.codingninjas.com/1-1-doubt-support-with-subtitle-2-33136.mp4';
+
+export const STANDFORD_IIT_FACULTY = 'https://files.codingninjas.com/stanford-iit-maang-faculty-with-subtitle-3-33140.mp4';
+
+export const PLACEMENT_SUPPORT = 'https://files.codingninjas.com/placement-assistance-with-subtitle-1716376917.mp4';
+
+export const LIVE_CHAT_URL = 'https://files.codingninjas.com/live-one-one-doubt-support-32931.png';
+
+export const STANDFORD_FACULTY = 'https://files.codingninjas.com/stanford-iit-maang-faculty-32934.png';
+
+export const PLACEMENT_ASSISTANCE_URL = 'https://files.codingninjas.com/placement-assistance-32933.png';
+
+export const VOLUME_ICON = "https://files.codingninjas.com/volume-1-32297.svg";
+
+
+export const FULL_STACK_COURSE_URL="https://www.codingninjas.com/job-bootcamp-web-development?utm_source=internal&utm_medium=internal&utm_campaign=homepage_new_courses";
+
+export const BOOTCAMP_COURSE_URL ="https://www.codingninjas.com/job-bootcamp-data-analytics?utm_source=internal&utm_medium=internal&utm_campaign=homepage_new_courses";
+
+
+export const DATA_ANALYTICS_COURSE = 'https://www.codingninjas.com/data-analytics-iitg-certification?utm_source=internal&utm_medium=internal&utm_campaign=homepage_new_courses';
+
+
+export const ADVANCED_DSA = 'https://www.codingninjas.com/careercamp/student-training-cum-internship-certification-dsa/?utm_source=internal&utm_medium=internal&utm_campaign=homepage_new_courses';
+
+export const INTERN_DATA_ANALYTICS = "https://www.codingninjas.com/careercamp/student-training-cum-internship-certification-data-analytics/?utm_source=internal&utm_medium=internal&utm_campaign=homepage_new_courses";
 
 export const certificatedDetails = [
   {
@@ -52,6 +85,7 @@ export const certificatedDetails = [
     chatGpt:CHATGPT_LOGO_URL,
     meta: META_LOGO_URL,
     googleAnalytics: GOOGLE_ANALYTICS_LOGO,
+    data_analytics:DATA_ANALYTICS_COURSE,
   },
   {
     name:'Training and Intership Certification in Advanced DSA',
@@ -59,6 +93,7 @@ export const certificatedDetails = [
     circle:CIRCLE_URL,
     database:DATABASE_URL_LOGO,
     cplus:CPLUS_LOGO_URL,
+    advancedDSA: ADVANCED_DSA,
   },
   {
     name:'Training and Intership Certification in Data Analytics',
@@ -66,6 +101,7 @@ export const certificatedDetails = [
     sql:SQL_LOGO_URL,
     python:PYTHON_LOGO_URL,
     powerbi:POWERBI_LOGO_URL,
+    internship: INTERN_DATA_ANALYTICS,
   }
 ];
 

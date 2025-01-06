@@ -20,7 +20,7 @@ const TechCareer = () => {
 
         <div className='flex justify-center text-[20px] mt-16 '>
           <div>
-          <button className='bg-orange-600 text-white font-semibold px-5 py-4 rounded-md'>Explore offerings <img className='inline-block' src={DOWN_ARROW_URL} alt='downArrow'/></button>
+          <button className='bg-orange-600 text-white font-semibold px-5 py-4 rounded-md hover:bg-customOrange transition'>Explore offerings <img className='inline-block' src={DOWN_ARROW_URL} alt='downArrow'/></button>
           </div>
         </div>
       </div>

@@ -29,9 +29,13 @@ module.exports = {
         customSeaShell:'rgb(255, 251, 245)',
         customBlack:'rgb(21, 24, 26)',
         customLightBlack:'rgb(45, 45, 45)',
+        customOrange:'rgb(246, 108, 59)',
+        customGradient:'linear-gradient(90deg, rgb(241, 98, 34) 0%, rgb(243, 116, 33) 26%, rgb(246, 141, 30))',
+        customGainsboro:'rgb(227, 227, 227)',  
+        customBorderBlack:'rgb(31,31,31)',
       },
       backgroundImage: {
-        'radial-gradient-dots': `radial-gradient(60% 60% at 50% 50%, rgba(21, 24, 25, 0.5) 0%, rgb(21, 24, 26) 100%), radial-gradient(currentColor 1px, transparent 1px)`
+        'radial-gradient-dots': `radial-gradient(60% 60% at 50% 50%, rgba(21, 24, 25, 0.5) 0%, rgb(21, 24, 26) 100%), radial-gradient(currentColor 1px, transparent 1px)`, 
       },
     },
   },
