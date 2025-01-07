@@ -25,7 +25,7 @@ const Transforms = () => {
   }, []);
 
   return (
-    <div className="bg-customBlack min-h-[200vh] flex flex-col items-center pt-40">
+    <div className="bg-customBlack min-h-[50vh] flex flex-col items-center pt-40 pb-64">
       {/* Sections */}
       <div className="space-y-28" >
         {[

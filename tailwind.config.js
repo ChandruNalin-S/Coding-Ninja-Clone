@@ -33,9 +33,17 @@ module.exports = {
         customGradient:'linear-gradient(90deg, rgb(241, 98, 34) 0%, rgb(243, 116, 33) 26%, rgb(246, 141, 30))',
         customGainsboro:'rgb(227, 227, 227)',  
         customBorderBlack:'rgb(31,31,31)',
+        customGrey:'rgb(178, 178, 178)',
+        customLigtherBlack:'rgb(20, 20, 20)',
+        customBorderBlack1:'rgb(64, 63, 63)',
+        customGreyBlack:'rgb(248, 248, 248)',
+        customAverageGrey:'rgb(173, 173, 174)',
       },
       backgroundImage: {
         'radial-gradient-dots': `radial-gradient(60% 60% at 50% 50%, rgba(21, 24, 25, 0.5) 0%, rgb(21, 24, 26) 100%), radial-gradient(currentColor 1px, transparent 1px)`, 
+        'text-gradient': 'linear-gradient(113deg, rgb(0, 71, 255) 9.94%, rgb(0, 194, 255) 90%)',
+        'text-gradientThunder':'linear-gradient(112deg, rgb(250, 0, 255) -3.21%, rgb(255, 138, 0) 97.8%)',
+
       },
     },
   },

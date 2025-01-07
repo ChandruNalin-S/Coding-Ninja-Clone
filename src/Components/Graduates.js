@@ -3,7 +3,7 @@ import { BOOTCAMP_COURSE_URL, DATA_ANALYTICS_URL, FULL_STACK_COURSE_URL, FULL_ST
 
 const Graduates = () => {
   return (
-    <div className='pt-10' >
+    <div className='pt-10' id='offer' >
       {/** first container */}
       <div className='flex justify-center text-[80px] text-customLightGray font-semibold'>
         <p>OUR OFFERINGS</p>

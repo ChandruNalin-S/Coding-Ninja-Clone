@@ -79,6 +79,21 @@ export const ADVANCED_DSA = 'https://www.codingninjas.com/careercamp/student-tra
 
 export const INTERN_DATA_ANALYTICS = "https://www.codingninjas.com/careercamp/student-training-cum-internship-certification-data-analytics/?utm_source=internal&utm_medium=internal&utm_campaign=homepage_new_courses";
 
+
+export const CODING_NINJA_ICON = "https://files.codingninjas.com/new-cn-logos-32028.svg";
+
+export const CHECK_ICON = 'https://files.codingninjas.com/check-fill-32029.svg';
+
+export const THUNDER_ICON = 'https://files.codingninjas.com/fi_3649458-32034.svg';
+
+export const BORDER_LINE = 'https://files.codingninjas.in/cn-advantage-line-32174.svg';
+
+export const BACKGROUND_ADVANTAGE_URL = 'https://files.codingninjas.com/coding-ninja-advantage-33059.svg';
+
+export const CODING_NINJA_ICON_WHITE = 'https://files.codingninjas.com/new-cn-logos-31142.svg';
+
+
+
 export const certificatedDetails = [
   {
     name:"PG Certification in Data Analytics",
