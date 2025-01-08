@@ -93,6 +93,15 @@ export const BACKGROUND_ADVANTAGE_URL = 'https://files.codingninjas.com/coding-n
 export const CODING_NINJA_ICON_WHITE = 'https://files.codingninjas.com/new-cn-logos-31142.svg';
 
 
+export const kashish_img = "https://files.codingninjas.com/kashish_google-32687.png";
+
+
+export const GOOGLE_LOGO = "https://files.codingninjas.com/google-32675.png";
+
+
+export const NINJA_THEME = 'https://files.codingninjas.com/frame-1000003621-1-32257.webp';
+
+export const CODING_NINJA_API = 'https://api.codingninjas.com/api/v3/home_data_v2';
 
 export const certificatedDetails = [
   {

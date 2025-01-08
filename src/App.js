@@ -7,14 +7,16 @@ import Transforms from './Components/Transforms';
 import WhyUs from './Components/WhyUs';
 import appStore from './utils/appStore';
 import Advantage from './Components/Advantage';
+import PlacementStudents from './Components/PlacementStudents';
+
 
 
 
 
 function App() {
-
+  
   return (
-    <div className="App pb-[500px] ">
+    <div className="App pb-[500px]">
       <Provider store={appStore}>
         <Header/>
         <TechCareer/>
@@ -22,6 +24,7 @@ function App() {
         <Transforms/>
         <WhyUs/>
         <Advantage/>
+        <PlacementStudents/>
       </Provider>
     </div>
   );

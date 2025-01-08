@@ -7,11 +7,16 @@ module.exports = {
     extend: {
       animation: {
         gradient: 'gradient 3s ease infinite',
+        "loop-scroll":"loop-scroll 32s linear infinite",
       },
       keyframes: {
         gradient: {
           '0%, 100%': { backgroundPosition: '0% 50%' },
           '50%': { backgroundPosition: '100% 50%' },
+        },
+        "loop-scroll": {
+          from:{transform:"translatex(0)"},
+          to:{transform:"translatex(-100%)"},
         },
       },
       backgroundSize: {

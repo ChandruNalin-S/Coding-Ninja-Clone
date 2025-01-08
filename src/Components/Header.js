@@ -1,10 +1,13 @@
 import React, { useState } from 'react';
 import LOGO_URL from '../utils/constants';
 
+
 const Header = () => {
   const [showJobBootcamp, setShowJobBootcamp] = useState(false);
   const [showIITCertificates, setShowIITCertificates] = useState(false);
 
+
+  
   return (
     <div className='flex items-center justify-evenly fixed left-0 right-0 top-0 z-10  bg-white '>
       <div className='flex h-20 items-center'>

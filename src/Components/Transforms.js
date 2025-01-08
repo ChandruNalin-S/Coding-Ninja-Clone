@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
-import { DOWN_ARROW_URL, WHY_US_BACKGROUND_URL } from "../utils/constants";
-import WhyUs from "./WhyUs";
+import { DOWN_ARROW_URL } from "../utils/constants";
+
 
 const Transforms = () => {
   const [activeIndex, setActiveIndex] = useState(-1);
