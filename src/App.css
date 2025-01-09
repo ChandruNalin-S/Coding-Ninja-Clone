@@ -14,3 +14,15 @@
     animation-play-state: paused;
   }
 }
+
+
+.scrollbar-hidden {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer and Edge */
+
+  /* For Webkit browsers (Chrome, Safari, etc.) */
+}
+.scrollbar-hidden::-webkit-scrollbar {
+  display: none;
+}
+

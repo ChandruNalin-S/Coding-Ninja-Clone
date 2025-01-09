@@ -1,5 +1,5 @@
 import React from 'react'
-import {  NINJA_THEME } from '../utils/constants'
+import {  NINJA_THEME, PLACEMENT_REPORT_PDF } from '../utils/constants'
 import { useSelector } from 'react-redux';
 import useStudentData from '../hooks/useStudentData';
 
@@ -30,11 +30,17 @@ const PlacementStudents = () => {
   return (
     <div className='flex flex-col items-center pt-28'>
       <div className='flex flex-col items-center'>
-        <div className='mb-8'>
+        <div className='mb-8 flex items-center justify-end w-[85%]'>
           <div className='font-semibold text-[18px]'>Our Ninjas at top tech companies</div>
+          <div className='font-semibold text-orange-600 flex ml-20 hover:cursor-pointer'>
+            <a className='flex gap-2' href={PLACEMENT_REPORT_PDF} target='_blank' rel='noreferrer'>
+              <img src='https://files.codingninjas.com/download-1-31950.svg' alt='downloadIcon' />
+              <div>Download Placement report</div>
+            </a>
+          </div>
         </div>
 
-        {/* Scrollable Container with Width Constraint */}
+
         <div className=' flex w-full max-w-screen-lg mx-auto overflow-hidden group'>
           <div className='flex gap-5 p-5 animate-loop-scroll group-hover:paused'>
             {students.map((student) => (

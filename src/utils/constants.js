@@ -103,6 +103,8 @@ export const NINJA_THEME = 'https://files.codingninjas.com/frame-1000003621-1-32
 
 export const CODING_NINJA_API = 'https://api.codingninjas.com/api/v3/home_data_v2';
 
+export const PLACEMENT_REPORT_PDF = 'https://files.codingninjas.com/placement-report-1725962563.pdf';
+
 export const certificatedDetails = [
   {
     name:"PG Certification in Data Analytics",

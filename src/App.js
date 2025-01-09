@@ -8,6 +8,7 @@ import WhyUs from './Components/WhyUs';
 import appStore from './utils/appStore';
 import Advantage from './Components/Advantage';
 import PlacementStudents from './Components/PlacementStudents';
+import StoriesPeople from './Components/StoriesPeople';
 
 
 
@@ -25,6 +26,7 @@ function App() {
         <WhyUs/>
         <Advantage/>
         <PlacementStudents/>
+        <StoriesPeople/>
       </Provider>
     </div>
   );

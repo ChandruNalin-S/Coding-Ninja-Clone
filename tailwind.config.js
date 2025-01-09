@@ -43,6 +43,7 @@ module.exports = {
         customBorderBlack1:'rgb(64, 63, 63)',
         customGreyBlack:'rgb(248, 248, 248)',
         customAverageGrey:'rgb(173, 173, 174)',
+        customBlackGrey:'rgb(151, 151, 151)',
       },
       backgroundImage: {
         'radial-gradient-dots': `radial-gradient(60% 60% at 50% 50%, rgba(21, 24, 25, 0.5) 0%, rgb(21, 24, 26) 100%), radial-gradient(currentColor 1px, transparent 1px)`, 
@@ -52,5 +53,7 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    
+  ],
 };
