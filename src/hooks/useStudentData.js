@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { addStudent, setTestimonials } from "../utils/studentSlice";
+import { addStudent, setLearningModel, setTestimonials, setTrustedLearners } from "../utils/studentSlice";
 import { CODING_NINJA_API } from "../utils/constants";
 
 
@@ -23,8 +23,9 @@ const useStudentData = ()=>{
   const fetchData = async ()=>{
     const response = await fetch(CODING_NINJA_API);
     const responsedata = await response.json();
-    console.log(responsedata.data.home_data.student_testimonials.categories
-    );
+    //console.log(responsedata.data.home_data.learning_model);
+    dispatch(setLearningModel(responsedata.data.home_data.learning_model));
+    dispatch(setTrustedLearners(responsedata.data.home_data.ratings_section))
     dispatch(setTestimonials(responsedata.data.home_data.student_testimonials.categories));
     dispatch(addStudent(responsedata.data.home_data.placement_section.students))
   }

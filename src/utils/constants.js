@@ -105,6 +105,9 @@ export const CODING_NINJA_API = 'https://api.codingninjas.com/api/v3/home_data_v
 
 export const PLACEMENT_REPORT_PDF = 'https://files.codingninjas.com/placement-report-1725962563.pdf';
 
+
+export const FLOWER_CORNER = 'https://files.codingninjas.com/frame-1000004191-32213.svg';
+
 export const certificatedDetails = [
   {
     name:"PG Certification in Data Analytics",
