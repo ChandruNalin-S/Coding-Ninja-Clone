@@ -9,6 +9,7 @@ const studentSlice = createSlice({
     student_testimonials:[],
     trusted_learners:[],
     Learning_model:[],
+    stuckList:[],
   },
   reducers:{
     addStudent:(state,action)=>{
@@ -24,11 +25,15 @@ const studentSlice = createSlice({
     },
     setLearningModel:(state,action)=>{
       state.Learning_model = action.payload;
+    },
+    
+    setStuckList:(state,action)=>{
+      state.stuckList = action.payload;
     }
   }
 });
 
 
-export const {addStudent, setTestimonials , setTrustedLearners, setLearningModel} = studentSlice.actions;
+export const {addStudent, setTestimonials , setTrustedLearners, setLearningModel, setStuckList} = studentSlice.actions;
 
 export default studentSlice.reducer;

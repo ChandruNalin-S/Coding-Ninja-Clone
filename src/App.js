@@ -9,6 +9,7 @@ import appStore from './utils/appStore';
 import Advantage from './Components/Advantage';
 import PlacementStudents from './Components/PlacementStudents';
 import StoriesPeople from './Components/StoriesPeople';
+import Stuck from './Components/Stuck';
 
 
 
@@ -28,6 +29,7 @@ function App() {
         <Advantage/>
         <PlacementStudents/>
         <StoriesPeople/>
+        <Stuck/>
       </Provider>
     </div>
   );

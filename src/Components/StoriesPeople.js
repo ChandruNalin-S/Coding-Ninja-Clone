@@ -26,7 +26,7 @@ const StoriesPeople = () => {
         <div className="flex flex-col gap-8 items-center pt-[10px] text-justify">
           <div className="text-customDarkGray">
             <p className="text-[16px] font-bold text-center">{name}</p>
-            <p className="text-[12px] font-medium">{position}</p>
+            <p className="text-[12px] font-medium text-center">{position}</p>
           </div>
           <div className="text-customLightGray text-[14px] pb-10 font-medium">
             {review}
@@ -144,7 +144,7 @@ const StoriesPeople = () => {
         </div>
 
         <div className="flex justify-center p-10">
-          <div className="flex gap-5 w-[80%] overflow-x-auto scrollbar-hidden pt-10">
+          <div className="flex  gap-5 w-[80%] overflow-x-auto scrollbar-hidden pt-10">
             {studentDetails.slice(0, 3).map((student, index) => {
               return (
                 <PlacedStudents
