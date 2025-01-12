@@ -8,6 +8,8 @@ module.exports = {
       animation: {
         gradient: 'gradient 3s ease infinite',
         "loop-scroll":"loop-scroll 32s linear infinite",
+        'scroll-up': 'scroll-up 40s linear infinite',
+        'scroll-down': 'scroll-down 40s linear infinite',
       },
       keyframes: {
         gradient: {
@@ -18,6 +20,17 @@ module.exports = {
           from:{transform:"translatex(0)"},
           to:{transform:"translatex(-100%)"},
         },
+
+        'scroll-up': {
+          '0%': { transform: 'translateY(0)' },
+          '100%': { transform: 'translateY(-100%)' },
+        },
+        'scroll-down': {
+          '0%': { transform: 'translateY(-100%)' },
+          '100%': { transform: 'translateY(0)' },
+        },
+
+
       },
       backgroundSize: {
         '200%': '200%', 
@@ -46,6 +59,7 @@ module.exports = {
         customBlackGrey:'rgb(151, 151, 151)',
         customLighterBlue:'rgb(246, 251, 251)',
         customYellow:'rgb(255, 193, 71)',
+        customLightYellow:'rgb(255, 246, 243)'
       },
       backgroundImage: {
         'radial-gradient-dots': `radial-gradient(60% 60% at 50% 50%, rgba(21, 24, 25, 0.5) 0%, rgb(21, 24, 26) 100%), radial-gradient(currentColor 1px, transparent 1px)`, 

@@ -10,6 +10,7 @@ import Advantage from './Components/Advantage';
 import PlacementStudents from './Components/PlacementStudents';
 import StoriesPeople from './Components/StoriesPeople';
 import Stuck from './Components/Stuck';
+import MentorShip from './Components/MentorShip';
 
 
 
@@ -30,6 +31,7 @@ function App() {
         <PlacementStudents/>
         <StoriesPeople/>
         <Stuck/>
+        <MentorShip/>
       </Provider>
     </div>
   );
