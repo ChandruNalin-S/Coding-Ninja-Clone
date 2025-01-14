@@ -11,6 +11,9 @@ import PlacementStudents from './Components/PlacementStudents';
 import StoriesPeople from './Components/StoriesPeople';
 import Stuck from './Components/Stuck';
 import MentorShip from './Components/MentorShip';
+import NinjaSpotLight from './Components/NinjaSpotLight';
+import CertificateSection from './Components/CertificateSection';
+import FooterContainer from './Components/FooterContainer';
 
 
 
@@ -20,7 +23,7 @@ import MentorShip from './Components/MentorShip';
 function App() {
   
   return (
-    <div className="App pb-[500px]">
+    <div className="App">
       <Provider store={appStore}>
         <Header/>
         <TechCareer/>
@@ -32,6 +35,9 @@ function App() {
         <StoriesPeople/>
         <Stuck/>
         <MentorShip/>
+        <NinjaSpotLight/>
+        <CertificateSection/>
+        <FooterContainer/>
       </Provider>
     </div>
   );

@@ -1,6 +1,7 @@
 import React from 'react'
 import { useSelector } from 'react-redux'
 import LearnByDoing from './LearnByDoing';
+import FacultyBest from './FacultyBest';
 
 const MentorShip = () => {
 
@@ -50,6 +51,7 @@ const MentorShip = () => {
       </div>
     </div>
     <LearnByDoing/>
+    <FacultyBest/>
     </>
   )
 }

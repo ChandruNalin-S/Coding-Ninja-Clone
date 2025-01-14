@@ -12,6 +12,8 @@ const studentSlice = createSlice({
     stuckList:[],
     mentorShip:[],
     Projects:[],
+    FacultyList:[],
+    NinjaSpotLightList:[],
   },
   reducers:{
     addStudent:(state,action)=>{
@@ -39,11 +41,19 @@ const studentSlice = createSlice({
 
     setProjects:(state,action)=>{
       state.Projects = action.payload;
+    },
+
+    setFacultyList:(state,action)=>{
+      state.FacultyList = action.payload;
+    },
+
+    setNinjaSpotLight:(state,action)=>{
+      state.NinjaSpotLightList = action.payload;
     }
   }
 });
 
 
-export const {addStudent, setTestimonials , setTrustedLearners, setLearningModel, setStuckList, addMentorShip, setProjects} = studentSlice.actions;
+export const {addStudent, setTestimonials , setTrustedLearners, setLearningModel, setStuckList, addMentorShip, setProjects,  setFacultyList, setNinjaSpotLight} = studentSlice.actions;
 
 export default studentSlice.reducer;

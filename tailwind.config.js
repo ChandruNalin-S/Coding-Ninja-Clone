@@ -59,7 +59,13 @@ module.exports = {
         customBlackGrey:'rgb(151, 151, 151)',
         customLighterBlue:'rgb(246, 251, 251)',
         customYellow:'rgb(255, 193, 71)',
-        customLightYellow:'rgb(255, 246, 243)'
+        customLightYellow:'rgb(255, 246, 243)',
+        customWhite:'rgb(255, 255, 255)',
+        customBorderLightGrey:'rgb(241, 242, 242)',
+        customBorderLighterGrey:'rgb(195, 195, 195)',
+        customLightColorGrey:'rgb(187, 187, 187)',
+        customBorderGrey:'rgb(94, 95, 96)',
+        background: '#39302d'
       },
       backgroundImage: {
         'radial-gradient-dots': `radial-gradient(60% 60% at 50% 50%, rgba(21, 24, 25, 0.5) 0%, rgb(21, 24, 26) 100%), radial-gradient(currentColor 1px, transparent 1px)`, 

@@ -17,12 +17,51 @@
 
 
 .scrollbar-hidden {
-  scrollbar-width: none; /* Firefox */
-  -ms-overflow-style: none; /* Internet Explorer and Edge */
-
-  /* For Webkit browsers (Chrome, Safari, etc.) */
+  scrollbar-width: none;
+  -ms-overflow-style: none; 
 }
+
+
 .scrollbar-hidden::-webkit-scrollbar {
   display: none;
 }
 
+
+.scrollbar-hide {
+  -ms-overflow-style: none; 
+  scrollbar-width: none; 
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none; 
+}
+
+
+.scrollbar-custom {
+  overflow-x: auto;
+  scrollbar-width: thin; 
+  scrollbar-color: black #f0f0f0; 
+}
+
+.scrollbar-custom::-webkit-scrollbar {
+  height: 4px; 
+}
+
+.scrollbar-custom::-webkit-scrollbar-track {
+  background: #f0f0f0; 
+  border-radius: 8px; 
+}
+
+.scrollbar-custom::-webkit-scrollbar-thumb {
+  background: black; 
+  border-radius: 8px; 
+}
+
+.scrollbar-custom::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+
+.scrollbar-custom::-webkit-scrollbar-button {
+  display: none; 
+}
