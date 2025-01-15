@@ -103,7 +103,7 @@ const StoriesPeople = () => {
   return (
     <>
       <div className="bg-customLigtherBlack flex flex-col items-center pt-[120px] pb-[80px] overflow-hidden">
-        <div className="flex items-center justify-between w-[60%] pb-[56px]">
+        <div className="flex items-center justify-between pb-[56px] sm:w-[90%] md:w-[70%] lg:w-[60%]">
           <div className="flex items-center gap-4">
             <img
               className="bg-white p-3 rounded-lg"
@@ -143,22 +143,25 @@ const StoriesPeople = () => {
           </div>
         </div>
 
-        <div className="flex justify-center p-10">
-          <div className="flex  gap-5 w-[80%] overflow-x-auto scrollbar-hidden pt-10">
-            {studentDetails.slice(0, 3).map((student, index) => {
-              return (
-                <PlacedStudents
-                  key={index}
-                  image_url={student.image_url}
-                  name={student.name}
-                  position={student.position}
-                  review={student.review}
-                  company_logo={student.company_logo}
-                />
-              );
-            })}
-          </div>
-        </div>
+        <div className="flex justify-center overflow-x-auto scrollbar-hidden">
+  <div className="flex gap-5 pt-10 w-full max-w-screen-sm sm:w-auto md:w-auto lg:w-auto">
+    {studentDetails.map((student, index) => {
+      return (
+        <PlacedStudents
+          key={index}
+          image_url={student.image_url}
+          name={student.name}
+          position={student.position}
+          review={student.review}
+          company_logo={student.company_logo}
+        />
+      );
+    })}
+  </div>
+</div>
+ 
+
+        
         <div className="mt-[28px]" >
           <button className="bg-orange-600 text-white px-7 py-4 rounded-lg font-semibold hover:bg-customOrange transition">
             Explore offerings <img className='inline-block -rotate-180' src={DOWN_ARROW_URL} alt='downArrow'/>
@@ -170,12 +173,12 @@ const StoriesPeople = () => {
         </div>
 
         
-          <div className=' flex flex-col items-center '>
+          <div className=' flex flex-col items-center'>
             <div className='mb-[16px]'>
               <p className='text-[20px] font-semibold text-white'>{trusted_learners.section_title}</p>
             </div>
             <div className='mb-[16px]'>
-              <p className='text-[14px] text-customAverageGrey'>{trusted_learners.section_subtitle}</p>
+              <p className='text-customAverageGrey sm:text-[12px] md:text-[12px] lg:text-[14px]'>{trusted_learners.section_subtitle}</p>
             </div>
 
 

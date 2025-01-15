@@ -12,7 +12,7 @@ const TechCareer = () => {
         </div>
 
         <div className='flex justify-center text-[64px]'>
-          <p className='font-bold w-[40%] leading-[84px]'>Get the tech career you deserve. Faster.</p>
+          <p className='font-bold w-[40%] leading-[84px] sm:w-[90%] text-center md:w-[70%] lg:w-[65%] xl:w-[40%]'>Get the tech career you deserve. Faster.</p>
         </div>
 
         <div className=' flex justify-center  text-[16px] text-customDarkGray'>

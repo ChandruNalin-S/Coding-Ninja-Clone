@@ -9,36 +9,24 @@
   -webkit-text-fill-color: transparent;
 }
 
-@layer utilities{
-  .paused{
+@layer utilities {
+  .paused {
     animation-play-state: paused;
   }
 }
 
-
 .scrollbar-hidden {
-  scrollbar-width: none;
+  scrollbar-width: none; 
   -ms-overflow-style: none; 
 }
-
 
 .scrollbar-hidden::-webkit-scrollbar {
-  display: none;
-}
-
-
-.scrollbar-hide {
-  -ms-overflow-style: none; 
-  scrollbar-width: none; 
-}
-
-.scrollbar-hide::-webkit-scrollbar {
   display: none; 
 }
 
 
 .scrollbar-custom {
-  overflow-x: auto;
+  overflow-x: auto; 
   scrollbar-width: thin; 
   scrollbar-color: black #f0f0f0; 
 }
@@ -58,10 +46,9 @@
 }
 
 .scrollbar-custom::-webkit-scrollbar-thumb:hover {
-  background: #555;
+  background: #555; 
 }
 
-
 .scrollbar-custom::-webkit-scrollbar-button {
-  display: none; 
+  display: none;
 }

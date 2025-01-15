@@ -32,7 +32,7 @@ const Stuck = () => {
     <div className="bg-customLigtherBlack min-h-screen">
       <div className="flex flex-col items-center py-[100px]">
 
-        <div className="flex items-center gap-5 w-[60%]">
+        <div className="flex items-center gap-5  sm:w-[85%] md:w-[70%] lg:w-[60%] ">
           <img
             src="https://files.codingninjas.com/frame-1000003333-1-32217.svg"
             alt="heartIcon"
@@ -42,14 +42,14 @@ const Stuck = () => {
           </p>
         </div>
 
-        <div className="flex flex-col gap-[60px] w-[60%] pl-[55px] mt-[60px]">
+        <div className="flex flex-col gap-[60px] w-[60%]  mt-[60px] sm:pl-0 md:pl-[10px] lg:pl-[50px] xl:pl-[55px]">
           {studentStuck?.features.map((item, index) => (
             <h2
               key={index}
               className={`scroll-text transition-all duration-600 ease-in-out ${
                 activeIndex === index
-                  ? 'text-[48px] text-customYellow font-bold opacity-100'
-                  : 'text-[36px] text-customLightBlack font-medium opacity-50'
+                  ? ' sm:text-[28px] md:text-[30px] lg:text-[36px] xl:text-[40px] text-customYellow font-bold opacity-100'
+                  : 'sm:text-[28px] md:text-[30px] lg:text-[36px] xl:text-[40px]  text-customLightBlack font-medium opacity-50'
               }`}
             >
               {item}

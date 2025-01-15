@@ -9,7 +9,7 @@ const Header = () => {
 
   
   return (
-    <div className='flex items-center justify-evenly fixed left-0 right-0 top-0 z-10  bg-white '>
+    <div className='flex items-center justify-evenly fixed left-0 right-0 top-0 z-10 bg-white'>
       <div className='flex h-20 items-center'>
         <div className='mr-12'>
           <img src={LOGO_URL} alt='logo' />

@@ -17,7 +17,7 @@ const NinjaSpotLight = () => {
           <img src='https://files.codingninjas.com/frame-1000003333-2-32237.svg' alt='frame'/>
           <div className='text-[18px] font-medium'>{NinjaSpotLight?.section_title}</div>
         </div>
-        <div className='flex items-center gap-5 pt-[60px] pl-5'>
+        <div className='flex items-center gap-5 pt-[60px] pl-5 sm:flex-col lg:flex-row'>
           <div className='text-center cursor-pointer'>
             <img className='w-[430px]' src={NinjaSpotLight?.video_article?.image_logo} alt='imglogo'/>
           </div>

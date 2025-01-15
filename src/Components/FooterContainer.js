@@ -8,7 +8,7 @@ const FooterContainer = () => {
     <div className='bg-background flex justify-center relative'>
       <img className='z-5 absolute bottom-0 left-[10px] object-fit w-[36%]' src='https://files.codingninjas.com/1111mountain-33077.webp' alt='mountain'/>
       <div className='pt-[100px] pb-[164px] '>
-        <div className='flex pb-[36px] gap-[120px] border-b border-b-customBorderGrey bg-transparen '>
+        <div className='flex pb-[36px] gap-[120px] border-b border-b-customBorderGrey bg-transparent sm:flex-col md:flex-col lg:flex-row'>
           {/** left container */}
           <div className='flex flex-col gap-[32px]'>
             <img className='w-[148px] h-[26px]' src='https://files.codingninjas.com/new-cn-logos-31142.svg' alt='logo'/>

@@ -46,7 +46,7 @@ const LearningModel = () => {
   };
 
   return (
-    <div className="bg-customLighterBlue flex justify-center">
+    <div className="bg-customLighterBlue flex justify-center sm:px-10 md:px-10px">
       <div className="flex flex-col pt-[120px] pb-[100px]">
         <div className="flex items-center gap-2 mb-[60px]">
           <div>

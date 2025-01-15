@@ -30,19 +30,19 @@ const MentorShip = () => {
   return (
     <>
     <div className='py-[100px]'>
-      <div className='flex gap-[20px] justify-center'>
+      <div className='flex gap-[20px] justify-center sm:pr-[190px] md:pr-[100px] lg:pr-[50px] xl:pr-0'>
 
         <div className=''>
           <img src='https://files.codingninjas.com/frame-1000003333-5-32272.svg' alt='frame'/>
         </div>
         
         
-        <div className='flex flex-col'>
+        <div className='flex flex-col '>
           <div className='flex flex-col gap-2'>
             <p className='text-[18px] text-customLigtherBlack font-medium'>{mentorShip.section_title}</p> 
             <p className='text-[14px] text-customDarkGray'>{mentorShip.section_subtitle}</p>
           </div>
-          <div className='flex gap-5 mt-[40px]'>
+          <div className='flex gap-5 mt-[40px] sm:flex-col ml-[180px] md:ml-[10px] flex-row lg:flex-row'>
             {mentorShip?.features.map((mentor,index)=>{
               return <Mentor key={index} {...mentor}/>
             })}

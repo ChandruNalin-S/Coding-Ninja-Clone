@@ -10,4 +10,4 @@ CodingNinja
 - animated scroll in x axis, up and down.
 - using API make our website more dynamic (codingNinja API).
 - install marquee external library for scroll animation (optional).
-
+- made it responsize 

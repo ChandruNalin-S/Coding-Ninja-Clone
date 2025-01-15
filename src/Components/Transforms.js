@@ -41,8 +41,8 @@ const Transforms = () => {
               activeIndex === index ? "text-white scale-110" : "text-customLightBlack scale-100"
             }`}
           >
-            <div className="text-7xl font-bold">{item.text}</div>
-            <div className="text-2xl mt-5">{item.subText}</div>
+            <div className="font-bold sm:text-5xl md:text-6xl lg:text-7xl">{item.text}</div>
+            <div className=" sm:text-md md:text-xl lg:text-2xl mt-5">{item.subText}</div>
           </div>
         ))}
       </div>

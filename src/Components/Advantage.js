@@ -30,7 +30,7 @@ const Advantage = () => {
 
   return (
     <div
-      className='flex flex-col items-center pt-36 min-h-[100vh] '
+      className='flex flex-col items-center pt-36 min-h-[100vh]'
       style={{ backgroundImage: `url(${BACKGROUND_ADVANTAGE_URL})` }}
     >
       <div className='mb-10'>
@@ -41,7 +41,7 @@ const Advantage = () => {
 
       <div className="overflow-hidden rounded-3xl border border-customBorderBlack1">
 
-        <table className='table-auto w-full'>
+        <table className='table-auto w-auto'>
           <thead>
             <tr className='text-customGrey'>
               <th></th>
@@ -52,47 +52,47 @@ const Advantage = () => {
                   alt='codingNinjaIcon'
                 />
               </th>
-              <th className='py-10 px-5 '>Free resources</th>
+              <th className='py-10 px-5 sm:px-1 '>Free resources</th>
               <th className='py-10 px-5 '>Other courses</th>
             </tr>
           </thead>
           <tbody>
             <tr className='font-semibold bg-customLigtherBlack text-customGainsboro'>
-              <td className='py-[24px] pl-[48px] pr-[200px]'>
+              <td className='py-[24px] pl-[48px] md:pr-[200px] sm:pr-[20px]'>
                 Structured + problem solving based
               </td>
               <td className='py-[24px] px-[60px]'>
-                <img src={CHECK_ICON} alt='check' />
+                <img className='sm:w-[20px] md:w-[25px] lg:w-[20px]' src={CHECK_ICON} alt='check' />
               </td>
               <td className='py-[24px] px-[60px] text-center'>X</td>
               <td className='py-[24px] px-[60px] text-center'>check</td>
             </tr>
             <tr className='font-semibold text-customGainsboro'>
-              <td className='py-[24px] pl-[48px] pr-[200px]'>
+              <td className='py-[24px] pl-[48px] md:pr-[200px] sm:pr-[20px]'>
                 Fastest 1:1 doubt support
               </td>
               <td className='py-[24px] px-[60px]'>
-                <img src={CHECK_ICON} alt='check' />
+                <img className='sm:w-[20px] md:w-[25px] lg:w-[20px]' src={CHECK_ICON} alt='check' />
               </td>
               <td className='py-[24px] px-[60px] text-center'>X</td>
               <td className='py-[24px] px-[60px] text-center'>X</td>
             </tr>
             <tr className='font-semibold bg-customLigtherBlack text-customGainsboro '>
-              <td className='py-[24px] pl-[48px] pr-[200px]'>
+              <td className='py-[24px] pl-[48px] md:pr-[200px] sm:pr-[20px]'>
                 Integrated prep platform
               </td>
               <td className='py-[24px] px-[60px]'>
-                <img src={CHECK_ICON} alt='check' />
+                <img className='sm:w-[20px] md:w-[25px] lg:w-[20px]' src={CHECK_ICON} alt='check' />
               </td>
               <td className='py-[24px] px-[60px] text-center'>X</td>
               <td className='py-[24px] px-[60px] text-center'>X</td>
             </tr>
             <tr className='font-semibold text-customGainsboro '>
-              <td className='py-[24px] pl-[48px] pr-[200px]'>
+              <td className='py-[24px] pl-[48px] md:pr-[200px] sm:pr-[20px]'>
                 Profiles highlighted on Naukri
               </td>
               <td className='py-[24px] px-[60px]'>
-                <img src={CHECK_ICON} alt='check' />
+                <img className='sm:w-[20px] md:w-[25px] lg:w-[20px] ' src={CHECK_ICON} alt='check' />
               </td>
               <td className='py-[24px] px-[60px] text-center'>X</td>
               <td className='py-[24px] px-[60px] text-center'>X</td>

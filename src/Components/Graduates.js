@@ -11,11 +11,11 @@ const Graduates = () => {
 
       {/** job Bootcamp  */}
       <div className='flex flex-col mt-10 '>
-        <div className='flex gap-4 ml-[300px] items-center'>
+        <div className='flex gap-4 items-center sm:ml-[50px] md:ml-[20px] lg:ml-[150px] xl:ml-[300px]'>
           <div className='font-semibold'>Job Bootcamp</div>
           <div className='font-semibold text-[12px] bg-customBlue rounded-e-3xl px-2 py-1 '>For graduates</div>
         </div>
-        <div className='flex justify-center mt-10'>
+        <div className='flex justify-center gap-5 mt-10 sm:flex-col items-center lg:flex-row'>
           {/** Full stack development */}
           <a href={FULL_STACK_COURSE_URL} target='_blank' rel="noopener noreferrer">
             <div className='w-[460px] rounded-xl hover:shadow-lg cursor-pointer transition-shadow duration-300'>
@@ -32,7 +32,7 @@ const Graduates = () => {
           </a>
           {/** data analytics */}
           <a href={BOOTCAMP_COURSE_URL} target='_blank' rel="noopener noreferrer" >
-            <div className='ml-5 w-[460px] rounded-xl hover:shadow-lg cursor-pointer transition-shadow duration-300'>
+            <div className='ml-5 sm:ml-0 w-[460px] rounded-xl hover:shadow-lg cursor-pointer transition-shadow duration-300'>
               <div className='flex bg-customLightBlue p-5  items-center h-[144px] gap-5 rounded-t-xl'>
                 <img className='bg-white w-[70px]  p-3 rounded-full' src={DATA_ANALYTICS_URL} alt='dataAnalytics'/>
                 <p className='font-semibold text-[20px]'>Data Analytics</p>

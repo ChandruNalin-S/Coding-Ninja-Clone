@@ -21,7 +21,7 @@ const LearnByDoing = () => {
 
   return (
     <div className='pt-[120px]'>
-      <div className='flex justify-evenly'>
+      <div className='flex justify-evenly sm:flex-col gap-10 sm:pl-[50px] md:flex-row pl-[150px] lg:pl-0 flex-row '>
         <div className='flex items-center gap-[16px]'>
           <div>
             <img src='https://files.codingninjas.com/frame-1000003333-6-32273.svg' alt='frame'/>
@@ -32,7 +32,7 @@ const LearnByDoing = () => {
           </div>
         </div>
 
-        <div className="flex gap-2 w-[308px] max-w-[308px] h-[360px] bg-customLightYellow pl-[52px] rounded-xl overflow-hidden whitespace-nowrap">
+        <div className="flex gap-2 w-[308px] max-w-[308px] h-[360px] bg-customLightYellow pl-[52px] rounded-xl overflow-hidden whitespace-nowrap sm:ml-[180px] md:ml-[10px] lg:ml-0">
       {/* Left Container - Scroll Up */}
         <div className="flex flex-col items-center gap-2 animate-scroll-up">
 
